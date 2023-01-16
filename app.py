@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 
-pipe = pickle.load(open(r"C:\Users\Rushabh\Desktop\Data Science\Data Science Projects\T20 cricket score predictor\pipe.pkl",'rb'))
+pipe = pickle.load(open(r"pipe.pkl",'rb'))
 
 teams = ['Australia',
  'India',
